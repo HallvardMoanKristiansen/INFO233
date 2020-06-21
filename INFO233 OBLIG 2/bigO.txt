@@ -1,0 +1,3 @@
+ Om man foretar en big O kjøretidsanalyse over "sort" funksjonen vil den være O(n^2).
+
+(Pass på at du ikke har mellomrom før eller etter navn når man legger til eller fjerner fra listen i main funksjonen).
