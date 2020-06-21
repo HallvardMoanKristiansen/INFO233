@@ -1,0 +1,38 @@
+//src https://github.com/EwyBoy/Twostack/blob/master/src/
+
+Oppgave a.
+Jeg valgte å bruke kjøretidsunntaket, ettersom vi kan bruke den for å sjekke om verdien er innenfor rekkevidden til index. Vi sjekker altså
+om tallene er outofbounds (for stor eller for liten) ved å bruke funksjonen RunTimeOutOfBoudnds som er en RunTimeException.
+Sjekkede unntak brukes generelt for å sjekke om filer, steder eller metoder er tilstedet.
+
+Oppgave c.
+Den interne strukturen i Arrayet er satt opp slik at vi bygger på twostack med objectet E[]. Dette objektet holder til i konstruktøren og jobber sammen med to integere som
+passe på størrelsen i hver sin angitte stabel til enhver tid. Jeg har kalt disse stablene rightArraySize og leftArraySize.
+Strukturen i mitt array, er satt opp slik at stablene bygger på begge sider, hvor det bygges fra utsiden og inn på hver side.
+Om venstre og høyresiden krasjer(møter hverandre) vil man ende opp med en fullexception.
+
+emptyexception = om man prøver å trekke fra noe som er på utsiden av arrayet.
+fullexception = når de krasjer (venstre og høyre).
+Om arrayet er fullt får man ikke lov til å legge til.
+
+
+Oppgave e.
+Kjøretidsanalyse ved å bruke big o.
+Size(): O(1)
+
+push(): O(1)
+
+pop(): O(1)
+
+peek(): O(1)
+
+oppgave g.
+Kjøretidsanalyse ved å bruke big o.
+
+clear(): o(n)
+
+contains(): o(n)
+
+oppgace i: psuedokode: o(n^2)
+
+
