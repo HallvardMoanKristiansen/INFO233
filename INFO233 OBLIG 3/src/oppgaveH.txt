@@ -1,0 +1,26 @@
+Programmet mitt er satt opp slik at det er mulighet for å bruke flere ulike databaser med ulike navn om man så ønsker det. Dette gjør programmet mer oversiktelig samtidig
+som det blir lettere å navigere. Dette var en anbefaling jeg fikk av Eivind som hjalp meg ordne dette. Det er derfor det er spesifisert hvilke database som er i bruk
+når man skal ønske å koble seg opp mot en database.
+Ved å sette oppsettet opp slik tilar det meg å ha flere databaser samtidig; hvor jeg har både database.db og oppgaveD.db. som gjør det litt lettere for meg.
+
+Har prøvd å gjøre det så oversiktelig som mulig ved å fordele hver funksjon opp i ulike mapper, derfor har jeg en god del i fx mappen..
+Oppgave C var ganske dårlig breskrevet, så resten finner du i UmlToJava mappen.
+
+Jeg er ikke allverdedens java guru så koden er ganske botched ettersom jeg har satt den sammen av tutorials, selvstedig arbeid og hjelp fra andre. Har samarbeidet en del med
+Eivind og David for å få oppgaven til å funke ettersom dette var en så krevende oppgave.
+
+Når det kommer til utformingsmønstre så valgte jeg å bruke et strukturert utformingsmønster,
+som gjør designet lettere ved å identifisere en enkel måte å innse relasjoner mellom enheter på. Dette kan man se ved at databasen min er delt opp i pakker.
+
+Jeg tok en titt på andre utformingsmønstre som singleton og dao, men ettersom jeg syntes de var ganske vanskelig å sette seg inn i, så følte jeg at jeg måtte gjøre
+noe jeg er konfortabel med ved å relativt lett. Grunnen til at jeg ikke valgte singleton med dao mønstre var vel det at jeg ikke er særlig komfortabel med det, og
+jeg leste på forum at man burde være forsiktig med samtidighet.
+
+System.out.println("Type '1' to launch the test data table");
+        System.out.println("Type '2' to launch Task TASK E window");
+        System.out.println("Type '3' to launch Task TASK G window");
+        System.out.println("Type '4' to launch Task TASK F window");
+
+
+Har kjørt gjennom all kode, alt skal funke, men på g kommer det opp noen feilmeldinger, selv om den funker. Bare å ignorere disse.
+Husk å skrive riktig tall for hver oppgave.

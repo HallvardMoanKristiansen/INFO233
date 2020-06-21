@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controller.StudentController">
+    <children>
+        <TextField fx:id="tab_name" alignment="CENTER" layoutX="14.0" layoutY="80.0" prefHeight="25.0" prefWidth="200.0" />
+        <TableView fx:id="stable0" layoutX="231.0" layoutY="80.0" prefHeight="306.0" prefWidth="363.0">
+            <columns>
+                <TableColumn fx:id="tab_kursnavn" prefWidth="95.0" text="KURSNAVN" />
+                <TableColumn fx:id="tab_kurskode" prefWidth="66.0" text="KURS" />
+                <TableColumn fx:id="tab_karakter" prefWidth="100.0" text="KARAKTER" />
+                <TableColumn fx:id="tab_year" prefWidth="101.0" text="YEAR" />
+            </columns>
+        </TableView>
+        <TableView fx:id="stable1" layoutX="14.0" layoutY="123.0" prefHeight="263.0" prefWidth="200.0">
+            <columns>
+                <TableColumn fx:id="tab_skole" prefWidth="105.0" text="SKOLE" />
+                <TableColumn fx:id="tab_kull" prefWidth="94.0" text="KULL" />
+            </columns>
+        </TableView>
+        <Text layoutX="231.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DELOPPGAVE E!" textAlignment="CENTER" wrappingWidth="168.0537109375">
+            <font>
+                <Font name="Arial" size="18.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
